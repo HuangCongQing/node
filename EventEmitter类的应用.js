@@ -2,10 +2,10 @@
 * @Author: hasee
 * @Date:   2017-10-27 15:54:19
 * @Last Modified by:   hasee
-* @Last Modified time: 2017-10-27 15:54:32
+* @Last Modified time: 2017-10-27 16:04:28
 */
 var events = require('events');
-var eventEmitter = new events.EventEmitter();
+var eventEmitter = new events.EventEmitter(); //// 创建 eventEmitter 对象
 
 // 监听器 #1
 var listener1 = function listener1() {
