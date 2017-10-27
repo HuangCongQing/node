@@ -4,8 +4,9 @@
 * @Last Modified by:   hasee
 * @Last Modified time: 2017-10-27 12:04:12
 */
-var http = require('http');
+var http = require('http');// 引入required模块
 
+//  创建服务器 http.createServer()
 http.createServer(function (request, response) {
 
     // 发送 HTTP 头部 
